@@ -1,0 +1,26 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="helloBean" class="com.test.spring.HelloWorld" >
+	<constructor-arg type = "int" value = "2001"/>
+      <constructor-arg type = "java.lang.String" value = "Zara"/>
+       <constructor-arg ref = "add"/>
+	</bean>
+		<bean id = "add" class = "com.test.spring.Address">
+		<constructor-arg type = "java.lang.String" value = "A5 2020"/>
+	
+	
+		<!-- <property name="myadd" >
+		<list>
+		 <value>INDIA</value>
+            <value>USA</value>
+            <value>UK</value>
+		</list>
+		
+		</property> -->
+		
+		</bean>
+		
+</beans>

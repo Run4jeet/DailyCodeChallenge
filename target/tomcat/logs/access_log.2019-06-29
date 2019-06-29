@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [29/Jun/2019:17:07:12 +0530] "GET /admisionForm.html HTTP/1.1" 200 1290 http-bio-8080-exec-1 6242
+0:0:0:0:0:0:0:1 - - [29/Jun/2019:17:07:14 +0530] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8080-exec-3 11
